@@ -3,7 +3,7 @@ import axios from "axios";
 
 class App extends React.Component {
   state = {
-    isLoading: true
+    isLoading: true,
     movies: []
   };
   getMovies = async () => {
